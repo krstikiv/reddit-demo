@@ -21,10 +21,13 @@ body {
   padding-top: 50px;
 }
 
-.navbar-default .navbar-brand {
-    a {
-    	color: #ff00ff;
-    }
+nav {
+	a {
+		color: #ff00ff;
+	}
+	a:hover {
+		color: #BF00BF;
+	}
 }
 
 #logo {
