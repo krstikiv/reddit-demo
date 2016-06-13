@@ -1,3 +1,5 @@
+<% links_all = Link.all %>
+
 <% @links.each do |link| %>
 <div class="link row clearfix">
 	<h2>
@@ -18,4 +20,8 @@
 		<% end %>
 	</div>
 </div>
+<% end %>
+
+<% if links_all.size == 0 %>
+	<em>No links found</em>
 <% end %>
