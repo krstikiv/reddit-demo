@@ -9,6 +9,7 @@ group :development do
 end
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -53,5 +54,4 @@ gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
-gem 'carrierwave', '~> 0.11.2'
 gem 'gravtastic', '~> 3.2', '>= 3.2.6'
